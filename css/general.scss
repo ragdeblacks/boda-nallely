@@ -1,0 +1,627 @@
+@font-face {
+    font-family: Parisienne-Regular;
+    src: url(../img/assets/font/Parisienne/Parisienne-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat-Black;
+    src: url(../img/assets/font/Montserrat/static/Montserrat-Black.ttf);
+}
+@font-face {
+    font-family: Montserrat-BlackItalic;
+    src: url(../img/assets/font/Montserrat/static/Montserrat-BlackItalic.ttf);
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../img/assets/font/Montserrat/static/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: Montserrat-BoldItalic;
+    src: url(../img/assets/font/Montserrat/static/Montserrat-BoldItalic.ttf);
+}
+@font-face {
+    font-family: Montserrat-ExtraBold;
+    src: url(../img/assets/font/Montserrat/static/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Montserrat-ExtraBoldItalic;
+    src: url(../img/assets/font/Montserrat/static/Montserrat-ExtraBoldItalic.ttf);
+}
+@font-face {
+    font-family: Montserrat-ExtraLight;
+    src: url(../img/assets/font/Montserrat/static/Montserrat-ExtraLight.ttf);
+}
+@font-face {
+    font-family: Montserrat-ExtraLightItalic;
+    src: url(../img/assets/font/Montserrat/static/Montserrat-ExtraLightItalic.ttf);
+}
+@font-face {
+    font-family: Montserrat-Italic;
+    src: url(../img/assets/font/Montserrat/static/Montserrat-Italic.ttf);
+}
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(../img/assets/font/Montserrat/static/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: Montserrat-LightItalic;
+    src: url(../img/assets/font/Montserrat/static/Montserrat-LightItalic.ttf);
+}
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(../img/assets/font/Montserrat/static/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: Montserrat-MediumItalic;
+    src: url(../img/assets/font/Montserrat/static/Montserrat-MediumItalic.ttf);
+}
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../img/assets/font/Montserrat/static/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url(../img/assets/font/Montserrat/static/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: Montserrat-SemiBoldItalic;
+    src: url(../img/assets/font/Montserrat/static/Montserrat-SemiBoldItalic.ttf);
+}
+@font-face {
+    font-family: Montserrat-Thin;
+    src: url(../img/assets/font/Montserrat/static/Montserrat-Thin.ttf);
+}
+@font-face {
+    font-family: Montserrat-ThinItalic;
+    src: url(../img/assets/font/Montserrat/static/Montserrat-ThinItalic.ttf);
+}
+.logo-img {
+    max-width: 7%;
+}
+.container-confirma{
+    padding-top: 14%;
+    padding-bottom: 14%;
+}
+.container-logo{
+    z-index: 6;
+    position: relative;
+    background: transparent;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 7% !important;
+}
+.container-logo-2{
+    z-index: 6;
+    position: relative;
+    background: transparent;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 7% !important;
+}
+.container-decorator{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: -webkit-fill-available;
+    height: auto; 
+}
+.container-save-date{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+}
+.container-save-date-3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(46, 46, 30)130%);
+}
+
+.text-carrusel{
+    position: absolute; 
+    z-index: 2;
+}
+.date-final{
+    border: 1px solid #BD9362; 
+}
+.icon-address{
+    max-width: 45% !important;
+}
+.content-address{
+    padding-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.background-confirma{
+    background-color: #e8eaed;
+}
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .img-collage{
+        width: 120% !important;
+    }
+    .container-logo{
+        z-index: 6;
+        position: relative;
+        background: transparent;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 9% !important;
+    }
+    .container-logo-2{
+        z-index: 6;
+        position: relative;
+        background: transparent;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 6% !important;
+    }
+    .img-logo{
+        max-width:70%;
+    }
+    .date-final{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .contenedor-header{
+        top: -28px;
+        position:absolute;
+    }
+    .contenedor-header-2{
+        position:absolute;
+    }
+    .grad-r {
+        position: absolute;
+        z-index: 4;
+        height: 5px;
+        width: 25%;
+        right: 0px;
+        top: -5px;
+        background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(188, 146, 97, 1) 100%);
+    }
+    .grad-l {
+        position: absolute;
+        z-index: 4;
+        height: 5px;
+        width: 25%;
+        left: 0px;
+        top: -5px;
+        background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(188, 146, 97, 1)100%);
+    }
+    .carrusel-imgs{
+        position: relative;
+        top: -47px;
+        z-index: 1;   
+    }
+    .text-carrusel{
+        width: 36%;
+        left: 5%;
+        top: 20%;
+        
+    }
+    .title-save{
+        font-family: Parisienne-Regular;
+        font-size: medium;
+        color: #fff;
+    }
+    .date-save{
+        padding-top: 0px !important;
+        font-family: Montserrat-MediumItalic;
+        font-size:xx-small;
+        color: #BD9362;
+    }
+    .content-save{
+        padding-top: 3px !important;
+        margin-bottom: 0px !important;
+        font-family: Montserrat-SemiBold;
+        font-size: 7px;
+        color: #fff;
+        line-height: 1.0;
+    }
+    .date-label{
+        font-family: Montserrat-Light;
+        font-size: 9px;
+        color: #BD9362;
+        line-height: 1;
+        margin-bottom: 0px !important;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    .date-esp{
+        font-family: Montserrat-Bold;
+        font-size: 10px;
+        color: #fff;
+        line-height: 1;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    .content-date{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .names-love p{
+        font-family: Parisienne-Regular;
+        font-size: 28px;
+        color: #BD9362;
+    }
+    .img-vid{
+        width: 85% !important;
+    }
+    .info-boda-title{
+        font-family: Parisienne-Regular;
+        font-size: 20px;
+        color: #BD9362;
+    }
+    .info-boda-site{
+        font-family: Montserrat-Bold;
+        font-size: 11px;
+    }
+    .info-boda-address{
+        font-family: Montserrat-Regular;
+        font-size: 10px;
+    }
+    .container-confirma{
+        padding-top: 14%;
+        padding-bottom: 14%;
+    }
+    .section-title{
+        font-family: Parisienne-Regular;
+        font-size: 14px;
+        color: #BD9362;
+        text-transform: capitalize;
+        font-weight: normal;
+        text-align: center;
+    }
+    .container-confirma .section-info{
+        font-family: Montserrat-Regular;
+        font-size: 11px;
+    }
+    .footer-copy{
+        padding-top: 9%; 
+        padding-bottom: .5%;
+    }
+    .img-s{
+        max-width: 42% !important;
+    }
+    .title-hotel{
+        font-family: Montserrat-SemiBold;
+        font-size: 14px;
+        color: #172b4b;
+        text-transform: capitalize;
+        font-weight: normal;
+    }
+    .text-hotel{
+        font-family: Montserrat-Regular;
+        font-size: 11px;
+        text-transform: capitalize;
+        font-weight: normal;
+    }
+    .text-codigov{
+        font-family: Montserrat-Regular;
+        font-size: 11px;
+        text-transform: capitalize;
+        font-weight: normal;
+        color: #777;
+    }
+}
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    body {
+        background-color: yellow;
+    }
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    body {
+        background-color: blue;
+    }
+}
+  
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1380px){
+    .img-collage{
+        width: 100% !important;
+    }
+    .img-logo{
+        max-width:55%;
+    }
+    .contenedor-header{
+        top: -80px;
+        position:absolute;
+    }
+    .contenedor-header-2{
+        position:absolute;
+    }
+    .grad-r {
+        position: absolute;
+        z-index: 4;
+        height: 15px;
+        width: 33%;
+        right: 0px;
+        top: -15px;
+        background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(188, 146, 97, 1) 100%);
+    }
+    .grad-l {
+        position: absolute;
+        z-index: 4;
+        height: 15px;
+        width: 33%;
+        left: 0px;
+        top: -15px;
+        background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(188, 146, 97, 1)100%);
+    }
+
+    .carrusel-imgs{
+        position: relative;
+        top: -143px;
+        z-index: 1;
+    }
+    .content-info-boda{
+        position: relative;
+    }
+    .text-carrusel{
+        width: 35%;
+        left: 8%;
+        top: 18%;
+    }
+    .title-save{
+        font-family: Parisienne-Regular;
+        font-size:70px;
+        color: #fff;
+    }
+    .date-save{
+        font-family: Montserrat-MediumItalic;
+        font-size:25px;
+        color: #BD9362;
+    }
+    .content-save{
+        font-family: Montserrat-Medium;
+        font-size: 25px;
+        color: #fff;
+        line-height: 1;
+    }
+    .date-label{
+        font-family: Montserrat-Light;
+        font-size: 25px;
+        color: #BD9362;
+        line-height: 1;
+    }
+    .date-esp{
+        font-family: Montserrat-Bold;
+        font-size: 25px;
+        color: #fff;
+        line-height: 1;
+    }
+    .content-date{
+        padding-top: 13px;
+    }
+    .names-love p{
+        font-family: Parisienne-Regular;
+        font-size: 60px;
+        color: #BD9362;
+    }
+    .img-vid{
+        width: 85% !important;
+    }
+    .info-boda-title{
+        font-family: Parisienne-Regular;
+        font-size: 45px;
+        color: #BD9362;
+    }
+    .info-boda-site{
+        font-family: Montserrat-Bold;
+        font-size: 18px;
+    }
+    .info-boda-address{
+        font-family: Montserrat-Regular;
+        font-size: 15px;
+    }
+    .container-confirma{
+        padding-top: 16%;
+        padding-bottom: 16%;
+    }
+    .section-title{
+        font-family: Parisienne-Regular;
+        font-size: 45px;
+        color: #BD9362;
+        text-transform: capitalize;
+        font-weight: normal;
+        text-align: center;
+    }
+    .container-confirma .section-info{
+        font-family: Montserrat-Regular;
+        font-size: 15px;
+    }
+    .container-gallery .column{
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+    .footer-copy{
+        padding-top: 9%; 
+        padding-bottom: 2%;
+    }
+    .img-s{
+        max-width: 42% !important;
+    }
+    .title-hotel{
+        font-family: Montserrat-SemiBold;
+        font-size: 18px;
+        color: #172b4b;
+        text-transform: capitalize;
+        font-weight: normal;
+    }
+    .text-hotel{
+        font-family: Montserrat-Regular;
+        font-size: 14px;
+        text-transform: capitalize;
+        font-weight: normal;
+    }
+    .text-codigov{
+        font-family: Montserrat-Regular;
+        font-size: 14px;
+        text-transform: capitalize;
+        font-weight: normal;
+        color: #777;
+    }
+    
+}
+  
+/* Media Query for Large screens */
+@media (min-width: 1381px) {
+    .img-collage{
+        width: 100% !important;
+    }
+    .img-logo{
+        max-width:60%;
+    }
+    .contenedor-header{
+        top: -122px;
+        position:absolute;
+    }
+    .grad-r {
+        position: absolute;
+        z-index: 4;
+        height: 15px;
+        width: 40%;
+        right: 0px;
+        top: -15px;
+        background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(188, 146, 97, 1) 100%);
+    }
+    .grad-l {
+        position: absolute;
+        z-index: 4;
+        height: 15px;
+        width: 40%;
+        left: 0px;
+        top: -15px;
+        background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(188, 146, 97, 1)100%);
+    }
+
+    .carrusel-imgs{
+        position: relative;
+        top: -205px;
+        z-index: 1;
+    }
+    .content-info-boda{
+        position: relative;
+    }
+    .text-carrusel{
+        width: 30%;
+        left: 8%;
+        top: 23%;
+    }
+    .title-save{
+        font-family: Parisienne-Regular;
+        font-size:70px;
+        color: #fff;
+    }
+    .date-save{
+        font-family: Montserrat-MediumItalic;
+        font-size:25px;
+        color: #BD9362;
+    }
+    .content-save{
+        font-family: Montserrat-Medium;
+        font-size: 25px;
+        color: #fff;
+        line-height: 1;
+    }
+    .date-label{
+        font-family: Montserrat-Light;
+        font-size: 25px;
+        color: #BD9362;
+        line-height: 1;
+    }
+    .date-esp{
+        font-family: Montserrat-Bold;
+        font-size: 25px;
+        color: #fff;
+        line-height: 1;
+    }
+    .content-date{
+        padding-top: 13px;
+    }
+    .names-love p{
+        font-family: Parisienne-Regular;
+        font-size: 80px;
+        color: #BD9362;
+    }
+    .img-vid{
+        width: 85% !important;
+    }
+    .info-boda-title{
+        font-family: Parisienne-Regular;
+        font-size: 60px;
+        color: #BD9362;
+    }
+    .info-boda-site{
+        font-family: Montserrat-Bold;
+        font-size: 20px;
+    }
+    .info-boda-address{
+        font-family: Montserrat-Regular;
+        font-size: 20px;
+    }
+    .section-title{
+        font-family: Parisienne-Regular;
+        font-size: 40px;
+        color: #BD9362;
+        text-transform: capitalize;
+        font-weight: normal;
+        text-align: center;
+    }
+    .container-confirma .section-info{
+        font-family: Montserrat-Regular;
+        font-size: 20px;
+    }
+    .footer-copy{
+        padding-top: 3%; 
+        padding-bottom: 1%;
+    }
+    .img-s{
+        max-width: 42% !important;
+    }
+    .title-hotel{
+        font-family: Montserrat-SemiBold;
+        font-size: 20px;
+        color: #172b4b;
+        text-transform: capitalize;
+        font-weight: normal;
+    }
+    .text-hotel{
+        font-family: Montserrat-Regular;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-weight: normal;
+    }
+    .text-codigov{
+        font-family: Montserrat-Regular;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-weight: normal;
+        color: #777;
+    }
+
+}
+.carousel-caption{
+    position: relative !important;
+    padding-bottom: 0px !important;
+    left: 0 !important;
+    right: 0 !important;
+}
